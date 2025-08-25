@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900,&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #050301;
+}
+
+p{
+    position: relative;
+    font-size: .8em;
+    line-height: 1em;
+    background-image: url('../assets/LESSERAFIM.png'), url('../assets/LESSERAFIM.png');
+    background-position-x: center;
+    background-blend-mode: color-burn;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+}

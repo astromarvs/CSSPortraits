@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #050301;
+}
+
+p{
+    line-height: 1em;
+    font-size: .8em;
+    background-image: url('../assets/KAZUHA.jpg'), url('../assets/KAZUHA.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-blend-mode: color-burn;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,-10);
+    color: transparent;
+}
