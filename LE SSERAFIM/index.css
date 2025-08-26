@@ -19,9 +19,9 @@ p{
     line-height: 1em;
     background-image: url('../assets/LESSERAFIM.png'), url('../assets/LESSERAFIM.png');
     background-position-x: center;
-    background-blend-mode: color-burn;
     background-attachment: fixed;
     background-size: cover;
+    background-blend-mode: color-burn;
     -webkit-background-clip: text;
     color: transparent;
 }

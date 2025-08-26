@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #050301;
+  overflow: hidden;
+}
+
+.portrait{
+  font-weight: 900;
+  font-size: .8em;
+  line-height: 1em;
+  background-image: url('../assets/CHAEWON.jpg'), url('../assets/CHAEWON.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-blend-mode: color-burn;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
